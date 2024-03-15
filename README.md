@@ -1,16 +1,22 @@
-Prototipo pequeño pero juegable de una mecanica de transformacion de personaje
-En este prototipo hay 2 personajes jugables
--EL personaje sin transformar tenrdrá velocidad reucida y salto pequeño
--El personaje transformado tendrá mas agilidad y una hitbox mas grande.
+# Transformación de Personaje
 
-¿Cómo se juega ?
-W/Space = Salto
-A = Derecha
-D = Izquierda
-S = Agacharse (Deshabilitará el colisionador de la cabeza y reducirá movimiento
-horizontal) No hay animación para esta acción.
+Este repositorio contiene un prototipo pequeño pero jugable de una mecánica de transformación de personaje. En este prototipo, encontrarás dos personajes jugables:
 
+- **Personaje sin Transformar:** Este personaje tiene una velocidad reducida y un salto pequeño.
+- **Personaje Transformado:** Este personaje tiene más agilidad y una hitbox más grande.
 
+## Cómo Jugar
 
-Cosas aprendidas en este proyecto, creacion de parallax effect, uso de Cinemachine,
-Instanciacion de prefabs, uso de IEnumarator y corrutinas.
+- **W/Barra Espaciadora:** Saltar
+- **A:** Moverse a la derecha
+- **D:** Moverse a la izquierda
+- **S:** Agacharse (deshabilita el colisionador de la cabeza y reduce el movimiento horizontal). No hay animación para esta acción.
+
+## Cosas Aprendidas
+
+En este proyecto, se han aprendido varias cosas, incluyendo:
+
+- Creación de efecto de parallax.
+- Uso de Cinemachine para la gestión de cámaras.
+- Instanciación de prefabs en tiempo de ejecución.
+- Utilización de `IEnumerator` y corrutinas para gestionar el tiempo de transformación.
